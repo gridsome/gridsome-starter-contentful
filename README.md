@@ -1,0 +1,1 @@
+# Contentful starter for Gridsome
