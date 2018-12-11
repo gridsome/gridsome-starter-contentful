@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@gridsome/source-contentful": "^0.1.0",
-    "gridsome": "^0.3.0"
+    "gridsome": "^0.3.6"
   }
 }
