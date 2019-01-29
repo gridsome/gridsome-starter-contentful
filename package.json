@@ -4,11 +4,18 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@gridsome/source-contentful": "^0.2.1",
     "dotenv": "^6.2.0",
     "gridsome": "^0.4.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.1",
+    "@vue/eslint-config-standard": "^4.0.0"
   }
 }

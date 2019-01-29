@@ -5,8 +5,12 @@
         <g-link :to="{ name: 'home' }">Gridsome</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" :to="{ name: 'home' }">Home</g-link>
-        <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
+        <g-link
+          :to="{ name: 'home' }"
+          class="nav__link">Home</g-link>
+        <g-link
+          :to="{ name: 'about' }"
+          class="nav__link">About</g-link>
       </nav>
     </header>
     <slot/>
