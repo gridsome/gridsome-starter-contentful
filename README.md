@@ -2,22 +2,8 @@
 
 ## Guide
 
-Add your Contentful Space ID and Access Token to the plugin options.
+Edit `.env.sample` and add your Contentful Space ID and Access Token.
+Rename `.env.sample` to `.env`
 
-```js
-// gridsome.config.js
-module.exports = {
-  plugins: [
-    {
-      use: '@gridsome/source-contentful',
-      options: {
-        space: 'YOUR_SPACE', // required
-        accessToken: 'YOUR_ACCESS_TOKEN', // required
-        host: 'cdn.contentful.com',
-        environment: 'master',
-        typeName: 'Contentful'
-      }
-    }
-  ]
-}
-```
+
+

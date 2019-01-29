@@ -4,4 +4,12 @@
 src/.temp
 node_modules
 dist
-yarn.lock
+
+
+public/
+.DS_Store
+
+
+contentful-import-error-log*
+.env
+.contentful.json

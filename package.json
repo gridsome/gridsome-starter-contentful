@@ -7,7 +7,8 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/source-contentful": "^0.1.0",
-    "gridsome": "^0.3.6"
+    "@gridsome/source-contentful": "^0.2.1",
+    "dotenv": "^6.2.0",
+    "gridsome": "^0.4.5"
   }
 }
